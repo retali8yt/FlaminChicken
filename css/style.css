@@ -1,3 +1,22 @@
+.navbar-logo-img {
+    height: 40px;       /* Adjust as needed */
+    width: auto;        /* Keeps aspect ratio */
+    max-width: 100%;    /* Prevent overflow */
+    display: block;     /* Remove inline space */
+}
+
+
+@font-face {
+  font-family: 'Caribbean';
+  src: url('fonts/Caribbean-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.caribbean {
+  font-family: 'Caribbean', cursive;
+}
+
+
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
