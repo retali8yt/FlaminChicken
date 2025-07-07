@@ -3,11 +3,19 @@
 
 <head>
 	<style>
-		 .flamin-logo {
-    max-width: 100%;
+  .flamin-logo {
+    max-width: 450px;  /* bigger on desktop */
+    width: 100%;
     height: auto;
-    max-height: 160px;  /* Change this if you want it bigger or smaller */
+    max-height: 160px;
     display: block;
+  }
+
+  @media (max-width: 480px) {
+    .flamin-logo {
+      max-width: 180px;  /* small on phones */
+      max-height: 100px;
+    }
   }
 		
 		.navbar-brand {
